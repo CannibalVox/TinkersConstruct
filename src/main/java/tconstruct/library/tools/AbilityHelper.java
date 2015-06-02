@@ -456,7 +456,7 @@ public class AbilityHelper
         trueSpeed *= 6;
         if (energy != -1)
         {
-            int usage = (int)(trueSpeed * 2.8f);
+            int usage = (int)(trueSpeed * 14f);
             // first try charging from the hotbar if we don't have CoFHs override
             if (!equalityOverrideLoaded && entity instanceof EntityPlayer)
             {
